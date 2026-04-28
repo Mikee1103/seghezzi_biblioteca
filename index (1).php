@@ -1,6 +1,6 @@
 <?php
 // Configurazione Database
-$conn = new mysqli("localhost", "root", "", "silva_biblioteca");
+$conn = new mysqli("localhost", "root", "", "seghezzi_biblioteca");
 
 if ($conn->connect_error) {
     die("Connessione fallita: " . $conn->connect_error);
